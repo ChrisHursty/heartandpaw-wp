@@ -1,0 +1,64 @@
+// Styling for the services grid section
+.services {
+
+	margin-bottom: -30px;
+	.services-item {
+		background-image: url('/img/services-save.jpg');
+		cursor: pointer;
+		position: relative;
+		display: block;
+		max-width: 25rem;
+		margin-bottom: 30px;
+		border-radius: $border-radius;
+		overflow: hidden;
+	}
+
+	.services-care {
+		.img-container {
+			align-items: center;
+			display: flex;
+			position: relative;
+			justify-content: center;
+
+			img {
+				max-width: 100%;
+			}
+
+			.icon {
+				margin: 0 auto;
+				position: absolute;
+				text-align: center;
+
+				img {
+					display: block;
+					height: 56px;
+					margin: 0 auto;
+					width: 56px;
+				}
+				span {
+					color: $white;
+					font-family: "Sailec Medium";
+					font-size: 1.8rem;
+				}
+
+				.coming-soon {
+					color: $white;
+					font-size: 1.4rem;
+					font-style: italic
+				}
+			}
+		}
+
+		.text-container {
+			.heading {
+				color: $mid-grey;
+				font-family: "Sailec Medium";
+			}
+
+			p {
+				color: $mid-grey;
+			}
+		}
+	}
+}
+

@@ -1,0 +1,29 @@
+// Custom Styles
+
+.page-section {
+	padding: 3rem;
+
+	.page-section-heading {
+		font-size: 1.5rem;
+		font-family: "Sailec Medium";
+		font-weight: 300;
+		line-height: 2rem;
+		margin-bottom: 1rem;
+	}
+}
+
+.lead {
+	color: $mid-grey;
+	line-height: 2.5rem;
+	font-family: "Sailec Light";
+	font-size: 2.25rem;
+	font-weight: 100;
+}
+
+.about {
+	.footer-text {
+		font-size: 1.7rem;
+		font-style: italic;
+	}
+}
+

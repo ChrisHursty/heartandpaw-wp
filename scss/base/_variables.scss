@@ -1,0 +1,31 @@
+// Variables
+
+// Set custom colors
+$white:      #fff;
+$black:      #000;
+$teal:       #155750 !default;
+$dark-blue:  #2c3e50 !default;
+$light-grey: #f8f8f7 !default;
+$mid-grey:   #5b5b5b !default;
+
+// Override Bootstrap primary and secondary colors
+$primary:   $teal !default;
+$secondary: $light-grey !default;
+
+// Override Bootstrap font variables
+$font-family-sans-serif: "Sailec", sans-serif;
+$headings-font-family:   "Sailec", sans-serif;
+$headings-font-weight:   regular;
+
+// Override Bootstrap border variables
+$border-width: 1px !default;
+$border-radius: 4px !default;
+$border-radius-lg: 0.75rem !default;
+$border-radius-sm: 0.25rem !default;
+
+// Override Bootstrap input/button variables
+$input-btn-border-width: $border-width !default;
+
+// Override Bootstrap modal variables
+$modal-inner-padding: 4rem 1rem !default;
+$modal-content-border-width: 0 !default;

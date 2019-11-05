@@ -1,0 +1,43 @@
+// Helper Classes
+
+.m-10 {
+	margin: 6rem !important;
+}
+
+.mt-10,
+.my-10 {
+	margin-top: 6rem !important;
+}
+
+.mr-10,
+.mx-10 {
+	margin-right: 6rem !important;
+}
+
+.mb-10,
+.my-10 {
+	margin-bottom: 6rem !important;
+}
+
+.ml-10,
+.mx-10 {
+	margin-left: 6rem !important;
+}
+
+.bg-primary {
+	background-color: $primary;
+	color: $white;
+}
+
+.text-primary {
+	color: $primary;
+}
+
+.italic {
+	font-style: italic;
+}
+
+strong {
+	font-family: "Sailec Bold";
+	font-weight: bold;
+}

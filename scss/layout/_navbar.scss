@@ -1,0 +1,125 @@
+// Styling for the navbar
+.nav-container {
+	background-color: $white;
+	height: 5.5rem;
+	position: fixed;
+	width: 100%;
+}
+#mainNav {
+	background-color: $white;
+	margin: 0 auto;
+	max-width: 1260px;
+	justify-content: space-between;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	font-family: $headings-font-family;
+
+	.container {
+		justify-content: end;
+	}
+
+	.navbar-brand {
+		color: $primary;
+		width: 180px;
+		img {
+			max-width: 100%;
+		}
+	}
+
+	.navbar-brand.desktop-logo {
+		display: none;
+	}
+
+	.navbar-brand.mobile-logo {
+		display: block;
+		width: 120px;
+	}
+
+	.navbar-toggler {
+		.fas {
+			color: $primary;
+			font-size: 160%;
+		}
+	}
+
+	.account-login {
+		position: absolute;
+		top: 28px;
+		right: 25px;
+
+		span {
+			display: inline-block;
+			margin-right: 10px;
+		}
+	}
+
+	.navbar-nav {
+		margin-top: 1rem;
+
+		li.nav-item {
+			a.nav-link {
+				color: $primary;
+				&:hover {
+					color: lighten($primary, 15%);
+				}
+				&:active,
+				&:focus {
+					color: lighten($primary, 15%);
+				}
+				&.active {
+					color: lighten($primary, 15%);
+				}
+			}
+		}
+	}
+
+	.navbar-toggler {
+		font-size: 80%;
+		padding: 0.8rem;
+	}
+}
+
+@include media-breakpoint-up(sm) {
+	#mainNav {
+		justify-content: space-between;
+
+		.navbar-brand {
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.navbar-brand.desktop-logo {
+			display: block;
+		}
+
+		.navbar-brand.mobile-logo {
+			display: none;
+			width: 120px;
+		}
+	}
+}
+
+
+@include media-breakpoint-up(lg) {
+
+	#mainNav {
+
+		.navbar-brand {
+			font-size: 1.75em;
+			transition: font-size 0.3s;
+		}
+		.navbar-nav {
+			margin-top: 0;
+		}
+		.navbar-nav > li.nav-item > a.nav-link.active {
+			text-decoration: underline;
+
+			&:active,
+			&:focus,
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+}
+
