@@ -1,0 +1,53 @@
+/*
+Theme Name: Heart and Paw
+Theme URI: https://heartandpaw.com
+Author: Chris Hurst
+Author URI: https://iamchrishurst.com/
+Description: Custom WordPress Theme for Heart + Paw
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: hp_wp
+*/
+
+/* Additional Page Styles*/
+#page-wrapper {
+	margin-top: 50px;
+}
+
+
+
+.post-type-archive-locations .one-half {
+	display: block;
+	float: left;
+	margin-right: 1%;
+	width: 49%;
+}
+
+.post-type-archive-locations a.border {
+	border: 1px solid #c7c7c7;
+	border-radius: 2px;
+	display: block;
+	overflow: hidden;
+}
+
+.post-type-archive-locations .border .image-container {
+	height: 145px;
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+
+.post-type-archive-locations .border .location-details {
+	padding: 0 6px 6px;
+}
+
+.post-type-archive-locations .border .image-container img {
+	max-width: 100%;
+}
+
+
+@media only screen and (min-width: 768px) {
+	#page-wrapper {
+		margin-top: 100px;
+	}
+}
